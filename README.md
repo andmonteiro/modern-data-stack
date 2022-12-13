@@ -14,7 +14,7 @@ Infraestrutura:
 
 - Subir o Airflow via docker X
 
-- Subir o Metabase via docker 
+- Subir o Metabase via docker X
 
 - Criar o script de execução 
 
