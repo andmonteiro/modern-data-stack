@@ -69,8 +69,8 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
 
 #### No Metabase:
 
-- Conectar Metabase com o Snowflake
-- Criar uma Question
-- Criar um Dashboard
-- Adicionar uma Question
-- Visualizar o Resultado
+- [ ] Conectar Metabase com o Snowflake
+- [ ] Criar uma Question
+- [ ] Criar um Dashboard
+- [ ] Adicionar uma Question
+- [ ] Visualizar o Resultado
