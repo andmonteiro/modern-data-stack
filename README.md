@@ -6,64 +6,64 @@ Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stac
 
 ### Infraestrutura:
 
-- Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) X
-- Setar as Permissoes do Gitpod ao Repositorio no Github X
-- Subir o Airbyte via docker X
-- Subir o Airflow via docker X
-- Subir o Metabase via docker X
-- Criar o script de execução 
-- Testar a Execução 
+- [x] Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) 
+- [x] Setar as Permissoes do Gitpod ao Repositorio no Github 
+- [x] Subir o Airbyte via docker 
+- [x] Subir o Airflow via docker 
+- [x] Subir o Metabase via docker 
+- [x] Criar o script de execução 
+- [x] Testar a Execução 
 
 #### Snowflake Data Warehouse:
 
-- Criar a Conta no SnowFlake X
-- Verificar a existência das tabelas X
-- Obter os links de conexão e nome da conta X
+- [x] Criar a Conta no SnowFlake 
+- [x] Verificar a existência das tabelas 
+- [x] Obter os links de conexão e nome da conta 
 
 ### Extração:
 
 #### No Airbyte:
 
-- Conectar com as origens baseadas nos Csvs X
-- Criar as entidades no snowflake através do script base da documentação X
-- Conectar o destino no snowflake X
-- Criar as conexões do airbyte associando as origens ao destino X
-- Testar as conexões X
+- [x] Conectar com as origens baseadas nos Csvs 
+- [x] Criar as entidades no snowflake através do script base da documentação 
+- [x] Conectar o destino no snowflake 
+- [x] Criar as conexões do airbyte associando as origens ao destino 
+- [x] Testar as conexões 
 
 ### Preparação:
 
 #### No Airbyte (Destination Loading Method):
 
-- Local Staging (Ambiente de Desenvolvimento) X
-- Cloud Staging (Ambiente de Produção) X
+- [x] Local Staging (Ambiente de Desenvolvimento) 
+- [x] Cloud Staging (Ambiente de Produção) 
 
 ### Transformação:
 
 #### No Dbt:
 
-- Criação da Conta X
-- Conexão com o Github X
-- Criação do Dbt Project X
-- Criação do Profile de conexão com o snowflake X
-- Criação do Schema X
-- Criação dos Modelos Base X
-- Criação do Modelo Relacionado X
-- Visualização gráfica do modelo X
-- Teste de execução X
-- Commits, Branches, Pull Requests, Merges no Github X
-- Obtenção do link de conexão com o Airbyte X
+- [x] Criação da Conta 
+- [x] Conexão com o Github 
+- [x] Criação do Dbt Project 
+- [x] Criação do Profile de conexão com o snowflake 
+- [x] Criação do Schema 
+- [x] Criação dos Modelos Base 
+- [x] Criação do Modelo Relacionado 
+- [x] Visualização gráfica do modelo 
+- [x] Teste de execução 
+- [x] Commits, Branches, Pull Requests, Merges no Github 
+- [x] Obtenção do link de conexão com o Airbyte 
 
 ### Orquestração:
 
 #### No Airflow:
 
-- Criar a dag X
-- Criar a Docker network X
-- Incluir nos composes a network criada X
-- Setup Up no serviço X
-- Testar a conexao entre os containers do airflow e do airbyte X
-- Criar as conexões com o Airbyte através do script X
-- Testar a execução do pipeline X
+- [x] Criar a dag 
+- [x] Criar a Docker network 
+- [x] Incluir nos composes a network criada 
+- [x] Setup Up no serviço 
+- [x] Testar a conexao entre os containers do airflow e do airbyte 
+- [x] Criar as conexões com o Airbyte através do script 
+- [x] Testar a execução do pipeline 
 
 ### Visualização:
 
